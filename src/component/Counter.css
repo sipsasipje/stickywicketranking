@@ -1,0 +1,29 @@
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.1em;
+  margin: 1em 0;
+  scroll-margin: 1em;
+  color: var(--light);
+  font-family: "Outfit", sans-serif;
+  font-weight: 700;
+  font-size: 4em;
+}
+
+.counter .separator {
+  color: var(--accent);
+  font-size: 0.75em;
+}
+
+.counter-appear {
+  max-height: 0;
+  opacity: 0;
+}
+
+.counter-appear-active {
+  max-height: 1000px;
+  opacity: 1;
+  transition: opacity 1s ease, max-height 1s ease;
+  will-change: opacity, max-height;
+}

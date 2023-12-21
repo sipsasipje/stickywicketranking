@@ -1,0 +1,28 @@
+{
+  "items": [
+    {
+      "name": "Band One",
+      "location": "Hamburg Arena",
+      "date": "2023-01-19T20:00:00",
+      "position": 3,
+      "quote": "We're all just monkeys in suits.",
+      "author": "Band One"
+    },
+    {
+      "name": "The Anonymous",
+      "location": "Lille Dome",
+      "date": "2023-02-18T19:00:00",
+      "position": 1,
+      "quote": "Everytime I see you, I'm a little bit happier.",
+      "author": "The Anonymous & Jim Beard"
+    },
+    {
+      "name": "Go Crazy",
+      "location": "Salisbury Palace",
+      "date": "2023-02-18T19:00:00",
+      "position": 2,
+      "quote": "The catch is that there is no catch.",
+      "author": "Go Crazy"
+    }
+  ]
+}

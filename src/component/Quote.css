@@ -1,0 +1,26 @@
+.quote {
+    margin: -1em 0 2em;
+    color: var(--light);
+    text-align: center;
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    font-size: 1.8em;
+  }
+  
+  .quote .author {
+    display: block;
+    color: var(--accent);
+    font-size: 0.75em;
+  }
+  
+  .quote-appear {
+    max-height: 0;
+    opacity: 0;
+  }
+  
+  .quote-appear-active {
+    max-height: 200px;
+    opacity: 1;
+    transition: opacity 1s ease, max-height 1s ease;
+    will-change: opacity, max-height;
+  }
