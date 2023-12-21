@@ -1,3 +1,13 @@
+# Sticky wicket ranking
+
+Present a tier list of all the events you visited this year and make friends guess your ranking.
+
+## Preparation
+
+Create a new data.json according to /src/assets/example-data.json
+Use npm start to run the app in development mode.
+Use npm run build to build the app for production to the build folder.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
